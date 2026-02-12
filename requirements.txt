@@ -1,0 +1,6 @@
+customtkinter>=5.2
+sqlalchemy>=2.0
+pymupdf>=1.23
+spacy>=3.7
+Pillow>=10.0
+gTTS>=2.5

@@ -1,0 +1,44 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging outputs
+build/
+dist/
+*.spec.bak
+*.egg-info/
+.eggs/
+
+# PyInstaller artifacts
+*.toc
+*.pkg
+*.pyz
+
+# Local app/runtime data
+data/*.db
+data/*.sqlite
+*.db
+*.sqlite
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db

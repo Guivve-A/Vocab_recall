@@ -1,0 +1,81 @@
+# =============================================================
+#  VocabRecall – Ejemplo de vocabulario estructurado
+#  Formato:  anverso ; reverso
+# =============================================================
+#
+#  SEPARADORES SOPORTADOS (se detectan automáticamente):
+#
+#    ;       punto y coma       →  das Haus ; the house
+#    |       barra vertical     →  der Hund | the dog
+#    TAB     tabulador          →  die Katze	the cat
+#    -       guion con espacios →  groß - big
+#    –       guion largo        →  schnell – fast
+#
+#  REGLAS:
+#    • Una línea = una tarjeta (anverso → reverso)
+#    • Las líneas que empiezan con # son comentarios (se ignoran)
+#    • Las líneas vacías se ignoran
+#    • Si el anverso incluye artículo (der/die/das), se extrae
+#      automáticamente y se muestra por separado en la flashcard
+#
+# =============================================================
+
+# ── Sustantivos (con artículo) ──
+das Haus ; the house / la casa
+der Hund ; the dog / el perro
+die Katze ; the cat / la gata
+das Buch ; the book / el libro
+der Tisch ; the table / la mesa
+die Lampe ; the lamp / la lámpara
+der Stuhl ; the chair / la silla
+das Fenster ; the window / la ventana
+die Tür ; the door / la puerta
+der Schlüssel ; the key / la llave
+das Auto ; the car / el coche
+die Straße ; the street / la calle
+der Baum ; the tree / el árbol
+die Blume ; the flower / la flor
+das Wasser ; the water / el agua
+der Freund ; the friend (male) / el amigo
+die Freundin ; the friend (female) / la amiga
+das Kind ; the child / el niño
+der Lehrer ; the teacher (male) / el profesor
+die Schule ; the school / la escuela
+
+# ── Verbos (infinitivo) ──
+gehen ; to go / ir
+kommen ; to come / venir
+machen ; to make, to do / hacer
+sagen ; to say / decir
+sehen ; to see / ver
+geben ; to give / dar
+nehmen ; to take / tomar
+finden ; to find / encontrar
+sprechen ; to speak / hablar
+lesen ; to read / leer
+schreiben ; to write / escribir
+lernen ; to learn / aprender
+arbeiten ; to work / trabajar
+spielen ; to play / jugar
+essen ; to eat / comer
+trinken ; to drink / beber
+schlafen ; to sleep / dormir
+laufen ; to run / correr
+fahren ; to drive / conducir
+kaufen ; to buy / comprar
+
+# ── Adjetivos ──
+groß ; big, tall / grande, alto
+klein ; small, little / pequeño
+gut ; good / bueno
+schlecht ; bad / malo
+schön ; beautiful / bonito
+neu ; new / nuevo
+alt ; old / viejo
+schnell ; fast / rápido
+langsam ; slow / lento
+schwer ; heavy, difficult / pesado, difícil
+leicht ; light, easy / ligero, fácil
+wichtig ; important / importante
+richtig ; correct / correcto
+falsch ; wrong, false / falso
